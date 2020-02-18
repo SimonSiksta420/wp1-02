@@ -1,6 +1,12 @@
 <?php
 $name = "Šimon Siksta";
+$gender = "Jsem Muž";
+$school = "Gymnázium Čáslav";
+$phonenumber = "420 666 6969"
+$birthdate = "Narodil jsem se v roce 2003"
+$email = "simon.siksta@student.ossp.cz"
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,11 +18,11 @@ $name = "Šimon Siksta";
 <body>
     <h2><?php echo $name; ?></h2>
 <ul>
-    <li>Narodil jsem se v roce 2003</li>
-    <li>Jsem muž</li>
-    <li>Gymnázium Čáslav</li>
-    <li>simon.siksta@student.ossp.cz</li>
-    <li>420 666 6969</li>
+    <li> <?php echo $birthdate; ?> </li>
+    <li> <?php echo $gender; ?> </li>
+    <li> <?php echo $school; ?> </li>
+    <li> <?php echo $email; ?> </li>
+    <li> <?php echo $phonenumber; ?> </li>
     <li>Rád hraju videohry</li>
     <li>Mám rád zvířata</li>
     <li>Vlastním zakrslého králíka, který se jmenuje Šimek</li>
