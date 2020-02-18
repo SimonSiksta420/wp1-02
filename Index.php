@@ -1,10 +1,19 @@
 <?php
+/*
 $name = "Šimon Siksta";
 $gender = "Jsem Muž";
 $school = "Gymnázium Čáslav";
 $phonenumber = "420 666 6969";
 $birthdate = "Narodil jsem se v roce 2003";
 $email = "simon.siksta@student.ossp.cz";
+*/
+
+$name = "Sorin Eni";
+$gender = "Muž";
+$school = "Zš Komenského Nymburk";
+$phonenumber = "666 666 429";
+$birthdate = "4.2 2003";
+$email = "sorin.eni@student.ossp.cz";
 ?>
 
 <!DOCTYPE html>
