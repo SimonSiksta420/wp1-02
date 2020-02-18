@@ -27,8 +27,10 @@ $email = "sorin.eni@student.ossp.cz";
     <title> Informace o mně </title>
 </head>
 <body>
-    <h2> <?= $firstname; ?></h2> <h2> <?= $lastname?> </h2>
+    <h2> <?= $firstname; ?> <?= $lastname?> </h2>
 <ul>
+    <li> Jméno: <?= $firstname ?> </li>
+    <li> Příjmení: <?= $lastname ?> </li>
     <li> Datum narození: <?= $birthdate; ?> </li>
     <li> Pohlaví: <?= $gender; ?> </li>
     <li> Škola: <?= $school; ?> </li>
