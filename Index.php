@@ -1,6 +1,7 @@
 <?php
 /*
-$name = "Šimon Siksta";
+$firstname = "Šimon";
+$lastname = "Siksta";
 $gender = "Jsem Muž";
 $school = "Gymnázium Čáslav";
 $phonenumber = "420 666 6969";
@@ -8,7 +9,8 @@ $birthdate = "Narodil jsem se v roce 2003";
 $email = "simon.siksta@student.ossp.cz";
 */
 
-$name = "Sorin Eni";
+$firstname = "Sorin";
+$lastname = "Eni";
 $gender = "Muž";
 $school = "Zš Komenského Nymburk";
 $phonenumber = "666 666 429";
@@ -25,21 +27,13 @@ $email = "sorin.eni@student.ossp.cz";
     <title> Informace o mně </title>
 </head>
 <body>
-    <h2><?php echo $name; ?></h2>
+    <h2> <?= $firstname; ?></h2> <h2> <?= $lastname?> </h2>
 <ul>
-    <li> <?php echo $birthdate; ?> </li>
-    <li> <?php echo $gender; ?> </li>
-    <li> <?php echo $school; ?> </li>
-    <li> <?php echo $email; ?> </li>
-    <li> <?php echo $phonenumber; ?> </li>
-    <li>Rád hraju videohry</li>
-    <li>Mám rád zvířata</li>
-    <li>Vlastním zakrslého králíka, který se jmenuje Šimek</li>
-    <li>Politika mě nezajímá</li>
-    <li>Baví mě čtení</li>
-    <li>Rád se učím nové jazyky</li>
-    <li>Umím velice dobře anglicky</li>
-    <li>Konec</li>
+    <li> Datum narození: <?= $birthdate; ?> </li>
+    <li> Pohlaví: <?= $gender; ?> </li>
+    <li> Škola: <?= $school; ?> </li>
+    <li> E-mail: <?= $email; ?> </li>
+    <li> Číslo <?= $phonenumber; ?> </li>
 </ul>
 </body>
 </html>
