@@ -2,9 +2,9 @@
 $name = "Šimon Siksta";
 $gender = "Jsem Muž";
 $school = "Gymnázium Čáslav";
-$phonenumber = "420 666 6969"
-$birthdate = "Narodil jsem se v roce 2003"
-$email = "simon.siksta@student.ossp.cz"
+$phonenumber = "420 666 6969";
+$birthdate = "Narodil jsem se v roce 2003";
+$email = "simon.siksta@student.ossp.cz";
 ?>
 
 <!DOCTYPE html>
